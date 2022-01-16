@@ -3,7 +3,9 @@ const dotenv = require("dotenv")
 dotenv.config()
 
 const notion = new Client({ auth: process.env.NOTION_KEY });
+var toGoogle = process.argv[2];
 
+console.log(toGoogle);
 
 (async () => {
   const response = await notion.blocks.children.list({
@@ -11,11 +13,6 @@ const notion = new Client({ auth: process.env.NOTION_KEY });
   });
   console.log(response);
 })();
-
-
-
-module.exports.AddToDo = function(toAdd) {
-};
 
 
 (async () => {
@@ -30,7 +27,7 @@ module.exports.AddToDo = function(toAdd) {
             {
               type: 'text',
               text: {
-                content: 'Thing to google',
+                content:  toGoogle,
               },
             },
           ],
@@ -40,4 +37,3 @@ module.exports.AddToDo = function(toAdd) {
   });
   console.log(response)
 })();
-

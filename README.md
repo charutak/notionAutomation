@@ -1,6 +1,6 @@
-# Key bindings to a list on notion, for fast addition and retrieval.  (Windows Only)
-
-## Simple tool to add to a list for googling later, to stop you from going down those rabbit holes. Plus,Fast retrieval for those random 5 minutes you get free. 
+#  Key bindings to Notion
+Key bindings to a list on notion, for fast addition and retrieval.  (Windows Only) <br>
+Simple tool to add to a list for googling later, to stop you from going down those rabbit holes. <br> Plus, Fast retrieval for those random 5 minutes you get free. 
 
 ## Usage:
 
